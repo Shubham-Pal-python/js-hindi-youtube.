@@ -11,3 +11,26 @@ const isLOggedIn = false
 
 // array, objects, functions
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//STACK (primitive), HEAP (non-primitive)
+
+let myYoutubename = "palbro.com"
+
+let anothername = myYoutubename
+anothername ="chai or code"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@pay"
+}
+
+let userTwo = userOne
+
+userTwo.email = "pal@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
